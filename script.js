@@ -8,8 +8,8 @@ const data = [
         "Lien": "https://www.restosducoeur.org"
     },
     {
-        "Nom": "Dons solidaires",
-        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark",
+        "Nom": "Dons Solidaires",
+        "Nombre d'adhérents": "Haleon, Essity France, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -362,14 +362,7 @@ const additionalData = [
         "Actions": "Accueil de jeunes dans des Maisons d'enfants à caractère social (MECS) pour leur permettre de s'épanouir sans difficultés sociales et familiales",
         "Lien": "https://www.glaubitz.fr/etablissements-sociaux-medico-sociaux/institution-saint-joseph-strasbourg/"
     },
-    {
-        "Nom": "ILEC",
-        "Adhérents": "TOUS",
-        "Cible": "Enfants et adolescents en difficultés",
-        "Périmètre": "Strasbourg",
-        "Actions": "Accueil de jeunes dans des Maisons d'enfants à caractère social (MECS) pour leur permettre de s'épanouir sans difficultés sociales et familiales",
-        "Lien": "https://www.glaubitz.fr/etablissements-sociaux-medico-sociaux/institution-saint-joseph-strasbourg/"
-    }
+
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
