@@ -362,7 +362,30 @@ const additionalData = [
         "Actions": "Accueil de jeunes dans des Maisons d'enfants à caractère social (MECS) pour leur permettre de s'épanouir sans difficultés sociales et familiales",
         "Lien": "https://www.glaubitz.fr/etablissements-sociaux-medico-sociaux/institution-saint-joseph-strasbourg/"
     },
-
+    {
+        "Nom": "Article 1",
+        "Adhérents": "HEINEKEN",
+        "Cible": "Jeunes issus de milieux populaires",
+        "Périmètre": "National",
+        "Actions": "Aide à l'orientation et à l'insertion professionnelle pour des jeunes issus de milieux populaires",
+        "Lien": "https://article-1.eu/"
+    },
+    {
+        "Nom": "Association prévention routière",
+        "Adhérents": "HEINEKEN",
+        "Cible": "",
+        "Périmètre": "National",
+        "Actions": "Actions de sensibilisation sur les risques liés à la conduite",
+        "Lien": "https://www.preventionroutiere.asso.fr/"
+    },
+    {
+        "Nom": "Special Olympics",
+        "Adhérents": "HEINEKEN",
+        "Cible": "Enfants, jeunes et adultes en situation de handicap",
+        "Périmètre": "National",
+        "Actions": "Permettre aux personnes atteintes d'un handicap mental de connaitre les joies du sport",
+        "Lien": "https://www.specialolympics.asso.fr/"
+    }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
