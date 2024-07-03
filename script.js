@@ -9,7 +9,7 @@ const data = [
     },
     {
         "Nom": "Dons Solidaires",
-        "Nombre d'adhérents": "Haleon, Essity France, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, Vileda",
+        "Nombre d'adhérents": "Haleon, Essity, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -49,7 +49,7 @@ const data = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Nombre d'adhérents": "Playmobil France, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
+        "Nombre d'adhérents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
@@ -60,7 +60,7 @@ const data = [
 const additionalData = [
     {
         "Nom": "Agir pour la Santé des Femmes (ADSF)",
-        "Adhérents": "Essity France",
+        "Adhérents": "Essity",
         "Cible": "Femmes en situation de précarité",
         "Périmètre": "National",
         "Actions": "Consultations médicales, distribution de kits d'hygiène, actions de prévention et d'éducation à la santé",
@@ -172,7 +172,7 @@ const additionalData = [
     },
     {
         "Nom": "Tout le monde chante contre le cancer",
-        "Adhérents": "Playmobil France",
+        "Adhérents": "Playmobil",
         "Cible": "Enfants atteints de cancer",
         "Périmètre": "National",
         "Actions": "Événements musicaux, soutien aux familles, financement de la recherche",
@@ -180,7 +180,7 @@ const additionalData = [
     },
     {
         "Nom": "Programme Malin",
-        "Adhérents": "Danone France",
+        "Adhérents": "Danone",
         "Cible": "Familles à faibles revenus avec jeunes enfants",
         "Périmètre": "National",
         "Actions": "Conseils nutritionnels, aide alimentaire, ateliers éducatifs",
@@ -204,7 +204,7 @@ const additionalData = [
     },
     {
         "Nom": "Le Rire médecin",
-        "Adhérents": "Playmobil France",
+        "Adhérents": "Playmobil",
         "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
         "Périmètre": "National",
         "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",
@@ -260,7 +260,7 @@ const additionalData = [
     },
     {
         "Nom": "SOS Bébé",
-        "Adhérents": "Danone France",
+        "Adhérents": "Danone",
         "Cible": "Soutien aux femmes enceintes en difficulté et aux jeunes mères",
         "Périmètre": "Régional",
         "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
@@ -386,6 +386,8 @@ const additionalData = [
         "Actions": "Permettre aux personnes atteintes d'un handicap mental de connaitre les joies du sport",
         "Lien": "https://www.specialolympics.asso.fr/"
     }
+
+
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -458,12 +460,13 @@ document.addEventListener('DOMContentLoaded', () => {
         contentDiv.innerHTML = '';  // Effacer le contenu précédent
         contentDiv.classList.add('logo-cloud'); // Ajout de la classe logo-cloud
         adherents.forEach(adherent => {
-            const logoPath = `${adherent.replace(/ /g, '_')}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
+            const logoPath = `${adherent}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
             const div = document.createElement('div');
             div.classList.add('logo-item');
             
             div.innerHTML = `
                 <img src="${logoPath}" alt="Logo de ${adherent}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+                <div class="tooltip">En savoir plus</div>
             `;
 
             div.addEventListener('click', () => {
