@@ -103,3 +103,20 @@ footer {
 .highlight {
     font-weight: bold;
 }
+
+#logoCloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo-item {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.logo-item img {
+    max-width: 100px;
+    height: auto;
+}

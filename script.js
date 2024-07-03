@@ -413,6 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('associationSelect').addEventListener('change', filterByAssociation);
     document.getElementById('resetButton').addEventListener('click', resetFilter);
+    document.getElementById('logosButton').addEventListener('click', displayLogoCloud);
 
     function filterByAssociation() {
         const select = document.getElementById('associationSelect');
@@ -427,6 +428,46 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function resetFilter() {
         displayData(combinedData);
+    }
+
+    function displayLogoCloud() {
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = '';  // Effacer le contenu précédent
+        contentDiv.classList.add('logo-cloud'); // Ajout de la classe logo-cloud
+        combinedData.forEach(item => {
+            const logoPath = `${item.Nom}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
+            const div = document.createElement('div');
+            div.classList.add('logo-item');
+            
+            div.innerHTML = `
+                <img src="${logoPath}" alt="Logo de ${item.Nom}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+            `;
+
+            div.addEventListener('click', () => {
+                displayAssociationDetails(item);
+            });
+
+            contentDiv.appendChild(div);
+        });
+    }
+
+    function displayAssociationDetails(item) {
+        const contentDiv = document.getElementById('content');
+        contentDiv.classList.remove('logo-cloud'); // Enlever la classe logo-cloud pour revenir au style de contenu normal
+        contentDiv.innerHTML = '';  // Effacer le contenu précédent
+        
+        const div = document.createElement('div');
+        div.classList.add('item');
+        
+        div.innerHTML = `
+            <img src="${item.Nom}.jpg" alt="Logo de ${item.Nom}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+            <strong>${item.Nom}</strong> - ${item["Nombre d'adhérents"] || item.Adhérents}
+            <p>${item.Cible}</p>
+            <p>${item.Périmètre}</p>
+            <p>${item.Actions}</p>
+            <a href="${item.Lien}" target="_blank">Visiter le site</a>
+        `;
+        contentDiv.appendChild(div);
     }
 
     function displayData(data, query = '') {

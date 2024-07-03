@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo" class="logo">
+        </div>
         <h1>Liste des associations collaborant avec des adhérents Ilec</h1>
     </header>
     <div id="menu">
@@ -17,6 +20,7 @@
             <option value="">Sélectionner une association</option>
         </select>
         <button id="resetButton">Toutes</button>
+        <button id="logosButton">Logos des associations</button>
     </div>
     <div id="content"></div>
     <footer>
