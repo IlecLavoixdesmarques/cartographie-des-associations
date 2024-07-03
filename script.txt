@@ -1,7 +1,7 @@
 const data = [
     {
         "Nom": "Restos du coeur",
-        "Nombre d'adhérents": "Materne France, SOLINEST, PepsiCo, Lactalis, Nestlé France, Thai Union, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France",
+        "Nombre d'adhérents": "Materne France, Solinest, PepsiCo, Lactalis, Nestlé France, Thai Union, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France",
         "Cible": "Personnes en situation de précarité, sans-abri, familles en difficulté",
         "Périmètre": "National (France)",
         "Actions": "Distribution de repas, aide à l'hébergement, insertion professionnelle, soutien scolaire",
@@ -390,6 +390,7 @@ const additionalData = [
 
 document.addEventListener('DOMContentLoaded', () => {
     const combinedData = [...data, ...additionalData].sort((a, b) => a.Nom.localeCompare(b.Nom));
+    const adherents = getAdherents(combinedData);
     const select = document.getElementById('associationSelect');
     combinedData.forEach(item => {
         const option = document.createElement('option');
@@ -414,6 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('associationSelect').addEventListener('change', filterByAssociation);
     document.getElementById('resetButton').addEventListener('click', resetFilter);
     document.getElementById('logosButton').addEventListener('click', displayLogoCloud);
+    document.getElementById('adherentsLogosButton').addEventListener('click', displayAdherentsLogoCloud);
 
     function filterByAssociation() {
         const select = document.getElementById('associationSelect');
@@ -447,6 +449,52 @@ document.addEventListener('DOMContentLoaded', () => {
                 displayAssociationDetails(item);
             });
 
+            contentDiv.appendChild(div);
+        });
+    }
+
+    function displayAdherentsLogoCloud() {
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = '';  // Effacer le contenu précédent
+        contentDiv.classList.add('logo-cloud'); // Ajout de la classe logo-cloud
+        adherents.forEach(adherent => {
+            const logoPath = `${adherent.replace(/ /g, '_')}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
+            const div = document.createElement('div');
+            div.classList.add('logo-item');
+            
+            div.innerHTML = `
+                <img src="${logoPath}" alt="Logo de ${adherent}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+            `;
+
+            div.addEventListener('click', () => {
+                displayAdherentAssociations(adherent);
+            });
+
+            contentDiv.appendChild(div);
+        });
+    }
+
+    function displayAdherentAssociations(adherent) {
+        const contentDiv = document.getElementById('content');
+        contentDiv.classList.remove('logo-cloud'); // Enlever la classe logo-cloud pour revenir au style de contenu normal
+        contentDiv.innerHTML = '';  // Effacer le contenu précédent
+        
+        const adherentAssociations = combinedData.filter(item => 
+            item["Nombre d'adhérents"]?.includes(adherent) || item.Adhérents?.includes(adherent)
+        );
+
+        adherentAssociations.forEach(item => {
+            const div = document.createElement('div');
+            div.classList.add('item');
+            
+            div.innerHTML = `
+                <img src="${item.Nom}.jpg" alt="Logo de ${item.Nom}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+                <strong>${item.Nom}</strong> - ${item["Nombre d'adhérents"] || item.Adhérents}
+                <p>${item.Cible}</p>
+                <p>${item.Périmètre}</p>
+                <p>${item.Actions}</p>
+                <a href="${item.Lien}" target="_blank">Visiter le site</a>
+            `;
             contentDiv.appendChild(div);
         });
     }
@@ -492,6 +540,19 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             contentDiv.appendChild(div);
         });
+    }
+
+    function getAdherents(data) {
+        const adherentsSet = new Set();
+        data.forEach(item => {
+            if (item["Nombre d'adhérents"]) {
+                item["Nombre d'adhérents"].split(',').forEach(adherent => adherentsSet.add(adherent.trim()));
+            }
+            if (item.Adhérents) {
+                item.Adhérents.split(',').forEach(adherent => adherentsSet.add(adherent.trim()));
+            }
+        });
+        return Array.from(adherentsSet);
     }
 
     // Afficher toutes les données par défaut

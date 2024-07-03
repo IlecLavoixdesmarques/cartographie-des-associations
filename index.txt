@@ -21,6 +21,7 @@
         </select>
         <button id="resetButton">Toutes</button>
         <button id="logosButton">Logos des associations</button>
+        <button id="adherentsLogosButton">Logos des adhérents</button> <!-- Nouveau bouton ajouté -->
     </div>
     <div id="content"></div>
     <footer>

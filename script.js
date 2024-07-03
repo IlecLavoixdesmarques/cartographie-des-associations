@@ -1,7 +1,7 @@
 const data = [
     {
         "Nom": "Restos du coeur",
-        "Nombre d'adhérents": "Materne France, SOLINEST, PepsiCo, Lactalis, Nestlé France, Thai Union, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France",
+        "Nombre d'adhérents": "Materne France, Solinest, PepsiCo, Lactalis, Nestlé France, Thai Union, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France",
         "Cible": "Personnes en situation de précarité, sans-abri, familles en difficulté",
         "Périmètre": "National (France)",
         "Actions": "Distribution de repas, aide à l'hébergement, insertion professionnelle, soutien scolaire",
@@ -9,7 +9,7 @@ const data = [
     },
     {
         "Nom": "Dons Solidaires",
-        "Nombre d'adhérents": "Haleon, Essity France, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
+        "Nombre d'adhérents": "Haleon, Essity, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -49,7 +49,7 @@ const data = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Nombre d'adhérents": "Playmobil France, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
+        "Nombre d'adhérents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
@@ -60,7 +60,7 @@ const data = [
 const additionalData = [
     {
         "Nom": "Agir pour la Santé des Femmes (ADSF)",
-        "Adhérents": "Essity France",
+        "Adhérents": "Essity",
         "Cible": "Femmes en situation de précarité",
         "Périmètre": "National",
         "Actions": "Consultations médicales, distribution de kits d'hygiène, actions de prévention et d'éducation à la santé",
@@ -172,7 +172,7 @@ const additionalData = [
     },
     {
         "Nom": "Tout le monde chante contre le cancer",
-        "Adhérents": "Playmobil France",
+        "Adhérents": "Playmobil",
         "Cible": "Enfants atteints de cancer",
         "Périmètre": "National",
         "Actions": "Événements musicaux, soutien aux familles, financement de la recherche",
@@ -180,7 +180,7 @@ const additionalData = [
     },
     {
         "Nom": "Programme Malin",
-        "Adhérents": "Danone France",
+        "Adhérents": "Danone",
         "Cible": "Familles à faibles revenus avec jeunes enfants",
         "Périmètre": "National",
         "Actions": "Conseils nutritionnels, aide alimentaire, ateliers éducatifs",
@@ -204,7 +204,7 @@ const additionalData = [
     },
     {
         "Nom": "Le Rire médecin",
-        "Adhérents": "Playmobil France",
+        "Adhérents": "Playmobil",
         "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
         "Périmètre": "National",
         "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",
@@ -260,7 +260,7 @@ const additionalData = [
     },
     {
         "Nom": "SOS Bébé",
-        "Adhérents": "Danone France",
+        "Adhérents": "Danone",
         "Cible": "Soutien aux femmes enceintes en difficulté et aux jeunes mères",
         "Périmètre": "Régional",
         "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
@@ -386,10 +386,13 @@ const additionalData = [
         "Actions": "Permettre aux personnes atteintes d'un handicap mental de connaitre les joies du sport",
         "Lien": "https://www.specialolympics.asso.fr/"
     }
+
+
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
     const combinedData = [...data, ...additionalData].sort((a, b) => a.Nom.localeCompare(b.Nom));
+    const adherents = getAdherents(combinedData);
     const select = document.getElementById('associationSelect');
     combinedData.forEach(item => {
         const option = document.createElement('option');
@@ -414,6 +417,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('associationSelect').addEventListener('change', filterByAssociation);
     document.getElementById('resetButton').addEventListener('click', resetFilter);
     document.getElementById('logosButton').addEventListener('click', displayLogoCloud);
+    document.getElementById('adherentsLogosButton').addEventListener('click', displayAdherentsLogoCloud);
 
     function filterByAssociation() {
         const select = document.getElementById('associationSelect');
@@ -447,6 +451,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 displayAssociationDetails(item);
             });
 
+            contentDiv.appendChild(div);
+        });
+    }
+
+    function displayAdherentsLogoCloud() {
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = '';  // Effacer le contenu précédent
+        contentDiv.classList.add('logo-cloud'); // Ajout de la classe logo-cloud
+        adherents.forEach(adherent => {
+            const logoPath = `${adherent}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
+            const div = document.createElement('div');
+            div.classList.add('logo-item');
+            
+            div.innerHTML = `
+                <img src="${logoPath}" alt="Logo de ${adherent}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+                <div class="tooltip">En savoir plus</div>
+            `;
+
+            div.addEventListener('click', () => {
+                displayAdherentAssociations(adherent);
+            });
+
+            contentDiv.appendChild(div);
+        });
+    }
+
+    function displayAdherentAssociations(adherent) {
+        const contentDiv = document.getElementById('content');
+        contentDiv.classList.remove('logo-cloud'); // Enlever la classe logo-cloud pour revenir au style de contenu normal
+        contentDiv.innerHTML = '';  // Effacer le contenu précédent
+        
+        const adherentAssociations = combinedData.filter(item => 
+            item["Nombre d'adhérents"]?.includes(adherent) || item.Adhérents?.includes(adherent)
+        );
+
+        adherentAssociations.forEach(item => {
+            const div = document.createElement('div');
+            div.classList.add('item');
+            
+            div.innerHTML = `
+                <img src="${item.Nom}.jpg" alt="Logo de ${item.Nom}" onerror="this.onerror=null;this.src='default-logo.jpg';">
+                <strong>${item.Nom}</strong> - ${item["Nombre d'adhérents"] || item.Adhérents}
+                <p>${item.Cible}</p>
+                <p>${item.Périmètre}</p>
+                <p>${item.Actions}</p>
+                <a href="${item.Lien}" target="_blank">Visiter le site</a>
+            `;
             contentDiv.appendChild(div);
         });
     }
@@ -492,6 +543,19 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             contentDiv.appendChild(div);
         });
+    }
+
+    function getAdherents(data) {
+        const adherentsSet = new Set();
+        data.forEach(item => {
+            if (item["Nombre d'adhérents"]) {
+                item["Nombre d'adhérents"].split(',').forEach(adherent => adherentsSet.add(adherent.trim()));
+            }
+            if (item.Adhérents) {
+                item.Adhérents.split(',').forEach(adherent => adherentsSet.add(adherent.trim()));
+            }
+        });
+        return Array.from(adherentsSet);
     }
 
     // Afficher toutes les données par défaut

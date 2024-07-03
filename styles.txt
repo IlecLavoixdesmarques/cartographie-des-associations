@@ -104,7 +104,7 @@ footer {
     font-weight: bold;
 }
 
-#logoCloud {
+#logoCloud, #adherentsLogoCloud {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -117,6 +117,7 @@ footer {
 }
 
 .logo-item img {
-    max-width: 100px;
-    height: auto;
+    width: 100px; /* Taille fixe pour tous les logos */
+    height: 100px; /* Taille fixe pour tous les logos */
+    object-fit: contain; /* Assure que les logos gardent leurs proportions */
 }

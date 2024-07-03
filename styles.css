@@ -104,7 +104,7 @@ footer {
     font-weight: bold;
 }
 
-#logoCloud {
+#logoCloud, #adherentsLogoCloud {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,11 +112,32 @@ footer {
 }
 
 .logo-item {
+    position: relative;
     margin: 0.5rem;
     cursor: pointer;
 }
 
 .logo-item img {
-    max-width: 100px;
-    height: auto;
+    width: 130px; /* Taille fixe pour tous les logos */
+    height: 130px; /* Taille fixe pour tous les logos */
+    object-fit: contain; /* Assure que les logos gardent leurs proportions */
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    bottom: 110%; /* Position au-dessus du logo */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1000;
+    font-size: 0.8rem;
+}
+
+.logo-item:hover .tooltip {
+    display: block;
 }
