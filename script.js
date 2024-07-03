@@ -108,7 +108,7 @@ const additionalData = [
     },
     {
         "Nom": "Les apprentis d'Autueil",
-        "Adhérents": "CCEP, L'Oréal",
+        "Adhérents": "Coca-Cola Europacific Partners, L'Oréal",
         "Cible": "Jeunes en difficulté",
         "Périmètre": "National",
         "Actions": "Éducation, formation professionnelle, accompagnement social",
@@ -188,7 +188,7 @@ const additionalData = [
     },
     {
         "Nom": "La Protection Civile",
-        "Adhérents": "CCEP",
+        "Adhérents": "Coca-Cola Europacific Partners",
         "Cible": "Soutien aux personnes en difficulté, y compris victimes de catastrophes et populations vulnérables",
         "Périmètre": "National",
         "Actions": "Distribution de colis alimentaires, soutien psychologique, et formation aux gestes de premiers secours",
@@ -252,7 +252,7 @@ const additionalData = [
     },
     {
         "Nom": "La Maison des femmes",
-        "Adhérents": "S.C. Johnsonn, Unilever",
+        "Adhérents": "S.C. Johnson, Unilever",
         "Cible": "Soutien aux femmes victimes de violences et en situation de vulnérabilité",
         "Périmètre": "Local (Île-de-France)",
         "Actions": "Soutien aux femmes victimes de violences, avec soins médicaux et accompagnement psychologique",
