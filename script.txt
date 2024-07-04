@@ -9,7 +9,7 @@ const combinedData = [
     },
     {
         "Nom": "Dons Solidaires",
-        "Adherents": "Haleon, Essity France, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
+        "Adherents": "Haleon, Essity, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda, Haleon",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -49,7 +49,7 @@ const combinedData = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Adherents": "Playmobil France, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
+        "Adherents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
@@ -57,7 +57,7 @@ const combinedData = [
     },
     {
         "Nom": "Agir pour la Santé des Femmes (ADSF)",
-        "Adherents": "Essity France",
+        "Adherents": "Essity",
         "Cible": "Femmes en situation de précarité",
         "Perimetre": "National",
         "Actions": "Consultations médicales, distribution de kits d'hygiène, actions de prévention et d'éducation à la santé",
@@ -169,7 +169,7 @@ const combinedData = [
     },
     {
         "Nom": "Tout le monde chante contre le cancer",
-        "Adherents": "Playmobil France",
+        "Adherents": "Playmobil",
         "Cible": "Enfants atteints de cancer",
         "Perimetre": "National",
         "Actions": "Événements musicaux, soutien aux familles, financement de la recherche",
@@ -201,7 +201,7 @@ const combinedData = [
     },
     {
         "Nom": "Le Rire médecin",
-        "Adherents": "Playmobil France, Ferrero France",
+        "Adherents": "Playmobil, Ferrero France",
         "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
         "Perimetre": "National",
         "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",

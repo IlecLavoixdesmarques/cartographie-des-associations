@@ -9,7 +9,7 @@ const combinedData = [
     },
     {
         "Nom": "Dons Solidaires",
-        "Adherents": "Haleon, Essity, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
+        "Adherents": "Haleon, Essity, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda, Haleon",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
