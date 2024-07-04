@@ -17,7 +17,7 @@ const combinedData = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France, Tereos",
+        "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France, Tereos, Labeyrie Fine Foods",
         "Cible": "Personnes en situation de précarité, familles",
         "Perimetre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -33,7 +33,7 @@ const combinedData = [
     },
     {
         "Nom": "Secours Populaire",
-        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France",
+        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Perimetre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -105,7 +105,7 @@ const combinedData = [
     },
     {
         "Nom": "Les apprentis d'Autueil",
-        "Adherents": "Coca-Cola Europacific Partners, L'Oréal",
+        "Adherents": "L'Oréal",
         "Cible": "Jeunes en difficulté",
         "Perimetre": "National",
         "Actions": "Éducation, formation professionnelle, accompagnement social",
@@ -184,14 +184,6 @@ const combinedData = [
         "Lien": "https://programme-malin.com/"
     },
     {
-        "Nom": "La Protection Civile",
-        "Adherents": "Coca-Cola Europacific Partners",
-        "Cible": "Soutien aux personnes en difficulté, y compris victimes de catastrophes et populations vulnérables",
-        "Perimetre": "National",
-        "Actions": "Distribution de colis alimentaires, soutien psychologique, et formation aux gestes de premiers secours",
-        "Lien": "https://www.protection-civile.org/"
-    },
-    {
         "Nom": "Laurette Fugain",
         "Adherents": "S.C. Johnson",
         "Cible": "Aide aux patients atteints de leucémie et à leurs familles",
@@ -238,14 +230,6 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Hébergement et réinsertion sociale des personnes sans-abri",
         "Lien": "https://www.emmaus-solidarite.org/"
-    },
-    {
-        "Nom": "L'Armée du salut",
-        "Adherents": "Ferrero France",
-        "Cible": "Aide aux personnes sans-abri, en situation de pauvreté, et marginalisées",
-        "Perimetre": "National",
-        "Actions": "Distribution de repas, hébergement d'urgence, et programmes de réinsertion sociale",
-        "Lien": "https://www.armeedusalut.fr/"
     },
     {
         "Nom": "La Maison des femmes",
@@ -361,7 +345,7 @@ const combinedData = [
     },
     {
         "Nom": "Article 1",
-        "Adherents": "HEINEKEN",
+        "Adherents": "HEINEKEN, Ferrero France",
         "Cible": "Jeunes issus de milieux populaires",
         "Perimetre": "National",
         "Actions": "Aide à l'orientation et à l'insertion professionnelle pour des jeunes issus de milieux populaires",
@@ -377,19 +361,83 @@ const combinedData = [
     },
     {
         "Nom": "Special Olympics",
-        "Adherents": "HEINEKEN",
+        "Adherents": "HEINEKEN, Coca-Cola Europacific Partners",
         "Cible": "Enfants, jeunes et adultes en situation de handicap",
         "Perimetre": "National",
         "Actions": "Permettre aux personnes atteintes d'un handicap mental de connaitre les joies du sport",
         "Lien": "https://www.specialolympics.asso.fr/"
     },
     {
+        "Nom": "La table du Soir",
+        "Adherents": "Labeyrie Fine Foods",
+        "Cible": "Personnes en situation de précarité",
+        "Perimetre": "Bayonne (64)",
+        "Actions": "Distribution de repas gratuits",
+        "Lien": "https://www.bayonne.fr/information-transversale/actualites/table-su-soir-table-despoir-12327"
+    },
+    {
+        "Nom": "Dax Tremplin",
+        "Adherents": "Labeyrie Fine Foods",
+        "Cible": "",
+        "Perimetre": "Dax (40)",
+        "Actions": "Accompagnement d'associations et de projets locaux dans leur développement",
+        "Lien": "https://www.facebook.com/daxtremplin/?locale=fr_FR"
+    },
+    {
+        "Nom": "Hom'less",
+        "Adherents": "Labeyrie Fine Foods",
+        "Cible": "Personnes en situation de précarité",
+        "Perimetre": "Nantes",
+        "Actions": "Distribution de repas gratuits",
+        "Lien": "https://www.facebook.com/p/Homless-100085961277957/?locale=fr_FR"
+    },
+    {
+        "Nom": "Le Réseau",
+        "Adherents": "Coca-Cola Europacific Partners",
+        "Cible": "Etudiants dans les territoires d'éducation prioritaire",
+        "Perimetre": "National",
+        "Actions": "Promotion de l'égalité des chances et aide à l'orientation professionnelle",
+        "Lien": "https://www.lereseau.asso.fr/"
+    },
+    {
+        "Nom": "Sport Dans La Ville",
+        "Adherents": "Coca-Cola Europacific Partners",
+        "Cible": "Jeunes issus de quartiers prioritaires",
+        "Perimetre": "National",
+        "Actions": "Permettre l'accès à la pratique sportive régulière en proposant des infrastructures et un encadrement aux jeunes",
+        "Lien": "https://www.sportdanslaville.com/?gad_source=1&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXM0zO2QPKgn1HLJwz0sg1GHQRqC0tl1u2th8m8cLgO6vFjy3PVkSVhoC6TsQAvD_BwE"
+    },
+    {
         "Nom": "Nos Quartiers ont du Talent",
+        "Adherents": "Ferrero France",
+        "Cible": "Jeunes diplomés issus de quartiers populaires",
+        "Perimetre": "National",
+        "Actions": "Aide à la recherche d'emploi et propositions de mentors",
+        "Lien": "https://jeunes.nqt.fr/"
+    },
+    {
+        "Nom": "Votre école chez vous",
+        "Adherents": "Ferrero France",
+        "Cible": "Enfants malades reçevant leur enseignement à domicile",
+        "Perimetre": "Ile-de-France et Rouen",
+        "Actions": "Ecoles qui enseignent au domicile des enfants malades ou handicapés",
+        "Lien": "https://www.vecv.org/"
+    },
+    {
+        "Nom": "Expédition MED",
         "Adherents": "Ferrero France",
         "Cible": "",
         "Perimetre": "",
-        "Actions": "",
-        "Lien": "https://www.specialolympics.asso.fr/"
+        "Actions": "Amélioration des connaissances sur les déchets marins",
+        "Lien": "https://www.expedition-med.org/"
+    },
+    {
+        "Nom": "FACE",
+        "Adherents": "Ferrero France",
+        "Cible": "Acteurs publics, privés et associatifs",
+        "Perimetre": "National",
+        "Actions": "Lutte contre l'exclusion, les discriminations et la pauvreté",
+        "Lien": "https://www.fondationface.org/"
     }
 ];
 
