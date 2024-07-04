@@ -9,7 +9,7 @@ const combinedData = [
     },
     {
         "Nom": "Dons Solidaires",
-        "Adherents": "Haleon, Essity, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
+        "Adherents": "Haleon, Essity France, Henkel France, Colgate-Palmolive, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark, Beiersdorf, Expanscience, Kao France, Mapa, Mattel, Playmobil, Reckitt, VIleda",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -17,7 +17,7 @@ const combinedData = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France",
+        "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France",
         "Cible": "Personnes en situation de précarité, familles",
         "Perimetre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -25,7 +25,7 @@ const combinedData = [
     },
     {
         "Nom": "Association Nationale des Épiceries Solidaires",
-        "Adherents": "Kellanova, PepsiCo",
+        "Adherents": "Kellanova, PepsiCo, Ferrero France",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "National (France)",
         "Actions": "Épiceries solidaires, accès à une alimentation de qualité à moindre coût",
@@ -33,7 +33,7 @@ const combinedData = [
     },
     {
         "Nom": "Secours Populaire",
-        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France",
+        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Perimetre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -49,7 +49,7 @@ const combinedData = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Adherents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
+        "Adherents": "Playmobil France, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
@@ -57,7 +57,7 @@ const combinedData = [
     },
     {
         "Nom": "Agir pour la Santé des Femmes (ADSF)",
-        "Adherents": "Essity",
+        "Adherents": "Essity France",
         "Cible": "Femmes en situation de précarité",
         "Perimetre": "National",
         "Actions": "Consultations médicales, distribution de kits d'hygiène, actions de prévention et d'éducation à la santé",
@@ -169,7 +169,7 @@ const combinedData = [
     },
     {
         "Nom": "Tout le monde chante contre le cancer",
-        "Adherents": "Playmobil",
+        "Adherents": "Playmobil France",
         "Cible": "Enfants atteints de cancer",
         "Perimetre": "National",
         "Actions": "Événements musicaux, soutien aux familles, financement de la recherche",
@@ -201,7 +201,7 @@ const combinedData = [
     },
     {
         "Nom": "Le Rire médecin",
-        "Adherents": "Playmobil",
+        "Adherents": "Playmobil France, Ferrero France",
         "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
         "Perimetre": "National",
         "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",
@@ -381,6 +381,14 @@ const combinedData = [
         "Cible": "Enfants, jeunes et adultes en situation de handicap",
         "Perimetre": "National",
         "Actions": "Permettre aux personnes atteintes d'un handicap mental de connaitre les joies du sport",
+        "Lien": "https://www.specialolympics.asso.fr/"
+    },
+    {
+        "Nom": "Nos Quartiers ont du Talent",
+        "Adherents": "Ferrero France",
+        "Cible": "",
+        "Perimetre": "",
+        "Actions": "",
         "Lien": "https://www.specialolympics.asso.fr/"
     }
 ];
