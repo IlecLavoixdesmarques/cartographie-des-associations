@@ -14,16 +14,16 @@
         </div>
         <h1>Liste des associations collaborant avec des adhérents Ilec</h1>
     </header>
-    <div id="menu">
-        <input type="text" id="searchInput" placeholder="Rechercher une association...">
-        <select id="associationSelect" onchange="filterByAssociation()">
+    <div id="menu" class="menu-container">
+        <input type="text" id="searchInput" placeholder="Rechercher une association..." class="search-input">
+        <select id="associationSelect" class="association-select" onchange="filterByAssociation()">
             <option value="">Sélectionner une association</option>
         </select>
-        <button id="resetButton">Toutes</button>
-        <button id="logosButton">Logos des associations</button>
-        <button id="adherentsLogosButton">Logos des adhérents</button> <!-- Nouveau bouton ajouté -->
+        <button id="resetButton" class="menu-button">Toutes</button>
+        <button id="logosButton" class="menu-button">Logos des associations</button>
+        <button id="adherentsLogosButton" class="menu-button">Logos des adhérents</button>
     </div>
-    <div id="content"></div>
+    <div id="content" class="content-container"></div>
     <footer>
         &copy; 2024 Ilec. Tous droits réservés.
     </footer>
