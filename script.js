@@ -480,14 +480,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetFilter() {
-        displayData(combinedData);
+        // Trier les données par nom d'association
+        const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
+        displayData(sortedData);
     }
 
     function displayLogoCloud() {
         const contentDiv = document.getElementById('content');
         contentDiv.innerHTML = '';
         contentDiv.classList.add('logo-cloud');
-        combinedData.forEach(item => {
+        
+        // Trier les données par nom d'association
+        const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
+        
+        sortedData.forEach(item => {
             const logoPath = `${item.Nom}.jpg`;
             const div = document.createElement('div');
             div.classList.add('logo-item');
@@ -508,7 +514,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentDiv = document.getElementById('content');
         contentDiv.innerHTML = '';
         contentDiv.classList.add('logo-cloud');
-        adherents.forEach(adherent => {
+        
+        // Trier les adhérents par ordre alphabétique
+        const sortedAdherents = adherents.slice().sort((a, b) => a.localeCompare(b));
+        
+        sortedAdherents.forEach(adherent => {
             const logoPath = `${adherent.replace(/ /g, '_')}.jpg`;
             const div = document.createElement('div');
             div.classList.add('logo-item');
@@ -602,5 +612,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return Array.from(adherentsSet);
     }
 
-    resetFilter();
+    // Trier les données par nom d'association pour l'affichage initial
+    const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
+    displayData(sortedData);
 });
+
