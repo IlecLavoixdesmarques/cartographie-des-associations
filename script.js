@@ -445,7 +445,7 @@ const combinedData = [
         "Cible": "Recherche contre le cancer des enfants",
         "Perimetre": "National",
         "Actions": "Financement de programmes de recherches spécifiques pour développer les connaissances sur les cancers des enfants",
-        "Lien": "https://www.fondationface.org/"
+        "Lien": "https://imagineformargo.org/association/"
     }
 ];
 
