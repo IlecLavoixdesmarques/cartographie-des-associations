@@ -33,7 +33,7 @@ const combinedData = [
     },
     {
         "Nom": "Secours Populaire",
-        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods",
+        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods, Edgewell Personal Care France",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Perimetre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -437,6 +437,14 @@ const combinedData = [
         "Cible": "Acteurs publics, privés et associatifs",
         "Perimetre": "National",
         "Actions": "Lutte contre l'exclusion, les discriminations et la pauvreté",
+        "Lien": "https://www.fondationface.org/"
+    },
+    {
+        "Nom": "Imagine for Margo",
+        "Adherents": "Edgewell Personal Care France",
+        "Cible": "Recherche contre le cancer des enfants",
+        "Perimetre": "National",
+        "Actions": "Financement de programmes de recherches spécifiques pour développer les connaissances sur les cancers des enfants",
         "Lien": "https://www.fondationface.org/"
     }
 ];
