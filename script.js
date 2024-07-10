@@ -329,7 +329,7 @@ const combinedData = [
     },
     {
         "Nom": "SOS Villages d'Enfants",
-        "Adherents": "Dr Oetker France",
+        "Adherents": "Dr Oetker France, Capri-Sun",
         "Cible": "Enfants en situation de détresse",
         "Perimetre": "National et International",
         "Actions": "Prise en charge de fratries pour protéger les enfants en situation de détresse et préserver les liens familiaux.",
@@ -480,9 +480,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetFilter() {
-        // Trier les données par nom d'association
-        const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
-        displayData(sortedData);
+        displayData(combinedData);
     }
 
     function displayLogoCloud() {
@@ -612,8 +610,5 @@ document.addEventListener('DOMContentLoaded', () => {
         return Array.from(adherentsSet);
     }
 
-    // Trier les données par nom d'association pour l'affichage initial
-    const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
-    displayData(sortedData);
+    resetFilter();
 });
-

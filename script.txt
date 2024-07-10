@@ -329,7 +329,7 @@ const combinedData = [
     },
     {
         "Nom": "SOS Villages d'Enfants",
-        "Adherents": "Dr Oetker France",
+        "Adherents": "Dr Oetker France, Capri-Sun",
         "Cible": "Enfants en situation de détresse",
         "Perimetre": "National et International",
         "Actions": "Prise en charge de fratries pour protéger les enfants en situation de détresse et préserver les liens familiaux.",
