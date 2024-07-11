@@ -113,7 +113,7 @@ const combinedData = [
     },
     {
         "Nom": "Oasis d'amour",
-        "Adherents": "Bel France",
+        "Adherents": "Bel France, PepsiCo",
         "Cible": "Personnes sans-abri",
         "Perimetre": "Local",
         "Actions": "Distribution de repas, hébergement d'urgence, aide à la réinsertion",
@@ -129,7 +129,7 @@ const combinedData = [
     },
     {
         "Nom": "Pacte 62",
-        "Adherents": "Bel France",
+        "Adherents": "Bel France, PepsiCo",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "Régional (Pas-de-Calais)",
         "Actions": "Aide alimentaire, accompagnement social, activités culturelles",
@@ -225,7 +225,7 @@ const combinedData = [
     },
     {
         "Nom": "Emmaüs Solidarité",
-        "Adherents": "L'Oréal, Carambar&Co",
+        "Adherents": "L'Oréal, Carambar&Co, PepsiCo",
         "Cible": "Soutien aux personnes sans-abri et en grande précarité",
         "Perimetre": "National",
         "Actions": "Hébergement et réinsertion sociale des personnes sans-abri",
@@ -446,6 +446,30 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Financement de programmes de recherches spécifiques pour développer les connaissances sur les cancers des enfants",
         "Lien": "https://www.fondationface.org/"
+    },
+    {
+        "Nom": "Etablissement Français du Sang",
+        "Adherents": "PepsiCo",
+        "Cible": "",
+        "Perimetre": "National",
+        "Actions": "Approvisionnement national en produits sanguins",
+        "Lien": "https://dondesang.efs.sante.fr/"
+    },
+    {
+        "Nom": "Alliance pour l'éducation",
+        "Adherents": "PepsiCo",
+        "Cible": "Élèves scolarisés dans les collèges REP et REP+",
+        "Perimetre": "National",
+        "Actions": "Permettre aux elèves scolarisés dans les collèges de l'éducation prioritaire de se projeter dans leur avenir",
+        "Lien": "https://alliance-education-uw.org/"
+    },
+    {
+        "Nom": "Miimosa",
+        "Adherents": "PepsiCo",
+        "Cible": "",
+        "Perimetre": "National",
+        "Actions": "Financement participatif de projets dédiés à la transition agricole et alimentaire",
+        "Lien": "https://miimosa.com/"
     }
 ];
 
