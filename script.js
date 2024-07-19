@@ -1,7 +1,7 @@
 const combinedData = [
     {
         "Nom": "Restos du coeur",
-        "Adherents": "Materne France, Solinest, PepsiCo, Lactalis, Nestlé France, Petit Navire, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France",
+        "Adherents": "Materne France, Solinest, PepsiCo, Lactalis, Nestlé France, Petit Navire, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France, Findus France, Aoste",
         "Cible": "Personnes en situation de précarité, sans-abri, familles en difficulté",
         "Perimetre": "National (France)",
         "Actions": "Distribution de repas, aide à l'hébergement, insertion professionnelle, soutien scolaire",
@@ -17,7 +17,7 @@ const combinedData = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France, Tereos, Labeyrie Fine Foods, Eckes-Granini France",
+        "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France, Tereos, Labeyrie Fine Foods, Eckes-Granini France, Aoste, Nestlé France",
         "Cible": "Personnes en situation de précarité, familles",
         "Perimetre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -33,7 +33,7 @@ const combinedData = [
     },
     {
         "Nom": "Secours Populaire",
-        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods, Edgewell Personal Care France, Carambar&Co",
+        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods, Edgewell Personal Care France, Carambar&Co, Aoste, Nestlé France",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Perimetre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -41,7 +41,7 @@ const combinedData = [
     },
     {
         "Nom": "Croix Rouge",
-        "Adherents": "Essity, Unilever",
+        "Adherents": "Essity, Unilever, Aoste, Nestlé France",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées, sans-abri",
         "Perimetre": "National (France), International",
         "Actions": "Secours d'urgence, aide alimentaire, formation aux premiers secours, aide à l'hébergement, soutien psychologique",
@@ -113,7 +113,7 @@ const combinedData = [
     },
     {
         "Nom": "Oasis d'amour",
-        "Adherents": "Bel France, PepsiCo",
+        "Adherents": "Bel France, PepsiCo, Aoste",
         "Cible": "Personnes sans-abri",
         "Perimetre": "Local",
         "Actions": "Distribution de repas, hébergement d'urgence, aide à la réinsertion",
@@ -168,8 +168,8 @@ const combinedData = [
         "Lien": "https://www.la-spa.fr/"
     },
     {
-        "Nom": "Tout le monde chante contre le cancer",
-        "Adherents": "Playmobil",
+        "Nom": "Tout le monde contre le cancer",
+        "Adherents": "Playmobil, Nestlé France",
         "Cible": "Enfants atteints de cancer",
         "Perimetre": "National",
         "Actions": "Événements musicaux, soutien aux familles, financement de la recherche",
@@ -209,7 +209,7 @@ const combinedData = [
     },
     {
         "Nom": "La Cravate solidaire",
-        "Adherents": "General Mills",
+        "Adherents": "General Mills, Nestlé France",
         "Cible": "Aide à l’insertion professionnelle des personnes en situation de précarité",
         "Perimetre": "National",
         "Actions": "Aide à l’insertion professionnelle par le don de vêtements et ateliers de préparation aux entretiens d'embauche",
@@ -225,7 +225,7 @@ const combinedData = [
     },
     {
         "Nom": "Emmaüs Solidarité",
-        "Adherents": "L'Oréal, Carambar&Co, PepsiCo",
+        "Adherents": "L'Oréal, Carambar&Co, PepsiCo, Aoste",
         "Cible": "Soutien aux personnes sans-abri et en grande précarité",
         "Perimetre": "National",
         "Actions": "Hébergement et réinsertion sociale des personnes sans-abri",
@@ -233,7 +233,7 @@ const combinedData = [
     },
     {
         "Nom": "La Maison des femmes",
-        "Adherents": "S.C. Johnson, Unilever",
+        "Adherents": "S.C. Johnson, Unilever, Nestlé France",
         "Cible": "Soutien aux femmes victimes de violences et en situation de vulnérabilité",
         "Perimetre": "Local (Île-de-France)",
         "Actions": "Soutien aux femmes victimes de violences, avec soins médicaux et accompagnement psychologique",
@@ -401,7 +401,7 @@ const combinedData = [
     },
     {
         "Nom": "Sport Dans La Ville",
-        "Adherents": "Coca-Cola Europacific Partners",
+        "Adherents": "Coca-Cola Europacific Partners, Nestlé France",
         "Cible": "Jeunes issus de quartiers prioritaires",
         "Perimetre": "National",
         "Actions": "Permettre l'accès à la pratique sportive régulière en proposant des infrastructures et un encadrement aux jeunes",
@@ -409,7 +409,7 @@ const combinedData = [
     },
     {
         "Nom": "Nos Quartiers ont du Talent",
-        "Adherents": "Ferrero France",
+        "Adherents": "Ferrero France, Nestlé France",
         "Cible": "Jeunes diplomés issus de quartiers populaires",
         "Perimetre": "National",
         "Actions": "Aide à la recherche d'emploi et propositions de mentors",
@@ -465,18 +465,142 @@ const combinedData = [
     },
     {
         "Nom": "Miimosa",
-        "Adherents": "PepsiCo",
+        "Adherents": "PepsiCo, Nestlé France",
         "Cible": "",
         "Perimetre": "National",
         "Actions": "Financement participatif de projets dédiés à la transition agricole et alimentaire",
         "Lien": "https://miimosa.com/"
+    },
+    {
+        "Nom": "Sourire d'enfant",
+        "Adherents": "Findus France",
+        "Cible": "Enfants malades ou handicapés",
+        "Perimetre": "National",
+        "Actions": "Soutien financier ou matériel d'hôpitaux, familles et associations pour aider les enfants malades ou handicapés",
+        "Lien": "https://www.souriredenfant.fr/"
+    },
+    {
+        "Nom": "Rêv'Elles",
+        "Adherents": "Nestlé France",
+        "Cible": "Jeunes femmes des milieux populaires",
+        "Perimetre": "National",
+        "Actions": "Accompagnement et soutien de jeunes femmes issues des milieux populaires dans leur épanouissement personnel et professionnel",
+        "Lien": "https://revelles.org/"
+    },
+    {
+        "Nom": "Elles Bougent",
+        "Adherents": "Nestlé France",
+        "Cible": "Jeunes professionnelles dans les milieux scientifiques et technologiques",
+        "Perimetre": "National",
+        "Actions": "Soutien au développement de la mixité dans les secteurs scientifiques et technologiques.",
+        "Lien": "https://www.ellesbougent.com/"
+    },
+    {
+        "Nom": "Tremplin handicap",
+        "Adherents": "Nestlé France",
+        "Cible": "Lycéens et étudiants en situation de handicap",
+        "Perimetre": "National",
+        "Actions": "Encourager et accompagner les jeunes en situation de handicap dans leur poursuite d'études et leur insertion professionnelle",
+        "Lien": "http://www.tremplin-handicap.fr/"
+    },
+    {
+        "Nom": "Cancer@Work",
+        "Adherents": "Nestlé France",
+        "Cible": "Entreprises et personnes atteintes du cancer et de maladies chroniques",
+        "Perimetre": "National",
+        "Actions": "Faire changer le regard de la société et des entreprises pour mieux vivre le cancer et les maladies chroniques au travail",
+        "Lien": "https://www.canceratwork.com/"
+    },
+    {
+        "Nom": "Le Refuge",
+        "Adherents": "Nestlé France",
+        "Cible": "Jeunes LGBT+ victimes de violences intrafamiliales",
+        "Perimetre": "National",
+        "Actions": "Accompagnement et hébergement de jeunes LGBT+ victimes de rejet familiale",
+        "Lien": "https://le-refuge.org/"
+    },
+    {
+        "Nom": "L'autre cercle",
+        "Adherents": "Nestlé France",
+        "Cible": "Acteurs du management de la diversité",
+        "Perimetre": "National",
+        "Actions": "Observation, accompagnement et promotion des actions en faveur de la mixité sociale au sein des entreprises pour faire changer les mentalités",
+        "Lien": "https://autrecercle.org/?_gl=1*1slb3r9*_up*MQ..&gclid=CjwKCAjwnei0BhB-EiwAA2xuBu3M6tK8MCwn1--26VfB2ZQmuuHSBX3idADfTDsUwGqTqe6DnvyWNxoCJfgQAvD_BwE"
+    },
+    {
+        "Nom": "Energie Jeunes",
+        "Adherents": "Nestlé France",
+        "Cible": "Enfants et jeunes",
+        "Perimetre": "National",
+        "Actions": "Provoquer le déclic psychologique pour permettre aux jeunes d'être plus réceptifs à l'enseignement de leurs professeurs et lutter contre le fatalisme social",
+        "Lien": "https://energiejeunes.fr/"
+    },
+    {
+        "Nom": "Un stage et après",
+        "Adherents": "Nestlé France",
+        "Cible": "Enfants et jeunes",
+        "Perimetre": "National",
+        "Actions": "Permettre à des jeunes et étudiants de réaliser des stages pour découvrir le monde professionnel",
+        "Lien": "https://www.unstageetapres.fr/#"
+    },
+    {
+        "Nom": "handi'Chiens",
+        "Adherents": "Purina",
+        "Cible": "Personnes en situation de handicap",
+        "Perimetre": "National",
+        "Actions": "Éducation et remise gratuitement de chiens d'assistancee pour personnes en situation de handicap",
+        "Lien": "https://handichiens.org/"
+    },
+    {
+        "Nom": "Gamelles pleines",
+        "Adherents": "Purina, Mars INC",
+        "Cible": "Personnes en situation de précarité",
+        "Perimetre": "National",
+        "Actions": "Aider les personnes en situation de souffrance sociale et économique pour qu'elles puissent garder leurs animaux de compagnie",
+        "Lien": "https://www.gamellespleines.fr/"
+    },
+    {
+        "Nom": "Solidarité Peuple Animal",
+        "Adherents": "Purina",
+        "Cible": "Refuges et associations pour animaux",
+        "Perimetre": "National",
+        "Actions": "Aide pour des refuges et associations via un soutien financier, matériel et humain",
+        "Lien": "https://www.solidarite-peuple-animal.com/"
+    },
+    {
+        "Nom": "Parole de chien",
+        "Adherents": "Purina",
+        "Cible": "Maîtres de chiens",
+        "Perimetre": "National",
+        "Actions": "Recrutement et formation de maîtres bénévoles avec leur chien, pour réaliser des visites et des animations auprès de personnes âgées",
+        "Lien": "https://www.parole-de-chien.com/"
+    },
+    {
+        "Nom": "PECCRAM",
+        "Adherents": "Purina",
+        "Cible": "Propriétaires de chiens",
+        "Perimetre": "National",
+        "Actions": "Formation et apprentissage des risques d'accident par morsure, pour favoriser la relation enfant-chien",
+        "Lien": "https://www.fimaccanin.fr/"
+    },
+    {
+        "Nom": "YOUCARE",
+        "Adherents": "Purina",
+        "Cible": "Associations de protection de la biodiversité",
+        "Perimetre": "International",
+        "Actions": "Soutien à des associations dans leurs projets de préservation et de protection de la biodiversité",
+        "Lien": "https://associationyoucare.org/"
     }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
     const adherents = getAdherents(combinedData);
     const select = document.getElementById('associationSelect');
-    combinedData.forEach(item => {
+    
+    // Sort combinedData alphabetically by the "Nom" property
+    const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
+
+    sortedData.forEach(item => {
         const option = document.createElement('option');
         option.value = item.Nom;
         option.textContent = item.Nom;
@@ -485,7 +609,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('searchInput').addEventListener('input', function(event) {
         const query = event.target.value.toLowerCase();
-        const filteredData = combinedData.filter(item => 
+        const filteredData = sortedData.filter(item => 
             item.Nom.toLowerCase().includes(query) ||
             (item.Adherents && item.Adherents.toLowerCase().includes(query)) ||
             item.Cible.toLowerCase().includes(query) ||
@@ -504,7 +628,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const select = document.getElementById('associationSelect');
         const selectedAssociation = select.value;
         if (selectedAssociation) {
-            const filteredData = combinedData.filter(item => item.Nom === selectedAssociation);
+            const filteredData = sortedData.filter(item => item.Nom === selectedAssociation);
             displayData(filteredData);
         } else {
             resetFilter();
@@ -512,16 +636,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetFilter() {
-        displayData(combinedData);
+        displayData(sortedData);
     }
 
     function displayLogoCloud() {
         const contentDiv = document.getElementById('content');
         contentDiv.innerHTML = '';
         contentDiv.classList.add('logo-cloud');
-        
-        // Trier les données par nom d'association
-        const sortedData = combinedData.slice().sort((a, b) => a.Nom.localeCompare(b.Nom));
         
         sortedData.forEach(item => {
             const logoPath = `${item.Nom}.jpg`;
@@ -570,7 +691,7 @@ document.addEventListener('DOMContentLoaded', () => {
         contentDiv.classList.remove('logo-cloud');
         contentDiv.innerHTML = '';
         
-        const adherentAssociations = combinedData.filter(item => 
+        const adherentAssociations = sortedData.filter(item => 
             item.Adherents?.includes(adherent)
         );
 
