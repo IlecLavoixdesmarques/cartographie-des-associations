@@ -33,7 +33,7 @@ const combinedData = [
     },
     {
         "Nom": "Secours Populaire",
-        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods, Edgewell Personal Care France, Carambar&Co, Aoste, Nestlé France",
+        "Adherents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, PepsiCo, McCormick France, Herta France, Ferrero France, Labeyrie Fine Foods, Edgewell Personal Care France, Carambar&Co, Aoste, Nestlé France, Henkel France",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Perimetre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -49,7 +49,7 @@ const combinedData = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Adherents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
+        "Adherents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France, Henkel France",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
