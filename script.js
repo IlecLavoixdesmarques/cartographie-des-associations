@@ -69,7 +69,7 @@ const combinedData = [
         "Cible": "Enfants et adolescents",
         "Perimetre": "Local (principalement en région Île-de-France)",
         "Actions": "Soutien scolaire, activités culturelles et sportives, accompagnement social",
-        "Lien": ""
+        "Lien": "https://associationici.fr/"
     },
     {
         "Nom": "Association Sœur Emmanuelle",
