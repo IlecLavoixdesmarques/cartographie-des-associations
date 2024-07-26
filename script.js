@@ -192,11 +192,11 @@ const combinedData = [
         "Lien": "https://www.laurettefugain.org/"
     },
     {
-        "Nom": "Le Rire médecin",
+        "Nom": "Le Rire Médecin",
         "Adherents": "Playmobil, Ferrero France",
         "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
         "Perimetre": "National",
-        "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",
+        "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns professionels",
         "Lien": "https://www.leriremedecin.org/"
     },
     {
