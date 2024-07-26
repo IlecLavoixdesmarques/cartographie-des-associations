@@ -504,14 +504,6 @@ const combinedData = [
         "Lien": "http://www.tremplin-handicap.fr/"
     },
     {
-        "Nom": "Cancer@Work",
-        "Adherents": "Nestlé France",
-        "Cible": "Entreprises et personnes atteintes du cancer et de maladies chroniques",
-        "Perimetre": "National",
-        "Actions": "Faire changer le regard de la société et des entreprises pour mieux vivre le cancer et les maladies chroniques au travail",
-        "Lien": "https://www.canceratwork.com/"
-    },
-    {
         "Nom": "Le Refuge",
         "Adherents": "Nestlé France",
         "Cible": "Jeunes LGBT+ victimes de violences intrafamiliales",
