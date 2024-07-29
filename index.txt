@@ -28,6 +28,8 @@
     <div id="content" class="content-container"></div>
     <footer>
         &copy; 2024 Ilec. Tous droits réservés.
+        <br>
+        Si vous souhaitez modifier/retirer la présentation de votre association, veuillez nous contacter à l’adresse suivante : antoine.quentin@ilec.asso.fr
     </footer>
     <script src="script.js"></script>
 </body>
