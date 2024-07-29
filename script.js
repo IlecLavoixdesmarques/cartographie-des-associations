@@ -19,7 +19,7 @@ const combinedData = [
         "Nom": "Banques alimentaires",
         "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France, Tereos, Labeyrie Fine Foods, Eckes-Granini France, Aoste, Nestlé France",
         "Cible": "Personnes en situation de précarité, familles",
-        "Perimetre": "National (France), réseau international",
+        "Perimetre": "National (France), réseau européen",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
         "Lien": "https://www.banquealimentaire.org"
     },
@@ -244,7 +244,7 @@ const combinedData = [
         "Adherents": "Danone",
         "Cible": "Soutien aux femmes enceintes en difficulté et aux jeunes mères",
         "Perimetre": "Régional",
-        "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
+        "Actions": "Sos bébé est un service d’écoute national qui accueille et soutien les femmes enceintes en difficulté, les accompagne dans leur recherche d’aides matérielles et les oriente pour leur suivi médical",
         "Lien": "https://www.sosbebe.org/"
     },
     {
@@ -262,14 +262,6 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Maisons regroupants les parents et leurs enfants hospitalisés afin d'apporter un soutien affectif dans le parcours de guérison",
         "Lien": "https://fondation-ronald-mcdonald.fr/"
-    },
-    {
-        "Nom": "The SeaCleaners",
-        "Adherents": "Pilot Pen France",
-        "Cible": "Protection de l'environnement",
-        "Perimetre": "National",
-        "Actions": "Actions de dépollution des océans, production d'études sur la pollution, actions de sensibilisation grand public",
-        "Lien": "https://www.theseacleaners.org/fr/accueil/"
     },
     {
         "Nom": "Semaine de l'écriture",
@@ -302,14 +294,6 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Proposent des colocations pour aider des personnes sans abris et des jeunes actifs",
         "Lien": "https://www.lazare.eu/"
-    },
-    {
-        "Nom": "Récolte&Nous",
-        "Adherents": "McCain",
-        "Cible": "Acteurs locaux de l'économie circulaire et agriculteurs",
-        "Perimetre": "Nord (59)",
-        "Actions": "Développement d'un réseau de professionnels et d'agriculteurs dans le but de développer l'économie circulaire",
-        "Lien": "https://recoltesetnous.fr/"
     },
     {
         "Nom": "Les petites soeurs des pauvres",
@@ -424,14 +408,6 @@ const combinedData = [
         "Lien": "https://www.vecv.org/"
     },
     {
-        "Nom": "Expédition MED",
-        "Adherents": "Ferrero France",
-        "Cible": "",
-        "Perimetre": "",
-        "Actions": "Amélioration des connaissances sur les déchets marins",
-        "Lien": "https://www.expedition-med.org/"
-    },
-    {
         "Nom": "FACE",
         "Adherents": "Ferrero France",
         "Cible": "Acteurs publics, privés et associatifs",
@@ -462,14 +438,6 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Permettre aux elèves scolarisés dans les collèges de l'éducation prioritaire de se projeter dans leur avenir",
         "Lien": "https://alliance-education-uw.org/"
-    },
-    {
-        "Nom": "Miimosa",
-        "Adherents": "PepsiCo, Nestlé France",
-        "Cible": "",
-        "Perimetre": "National",
-        "Actions": "Financement participatif de projets dédiés à la transition agricole et alimentaire",
-        "Lien": "https://miimosa.com/"
     },
     {
         "Nom": "Sourire d'enfant",
@@ -540,7 +508,7 @@ const combinedData = [
         "Adherents": "Purina",
         "Cible": "Personnes en situation de handicap",
         "Perimetre": "National",
-        "Actions": "Éducation et remise gratuitement de chiens d'assistancee pour personnes en situation de handicap",
+        "Actions": "Éducation et remise gratuitement de chiens d'assistance pour personnes en situation de handicap",
         "Lien": "https://handichiens.org/"
     },
     {

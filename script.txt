@@ -264,14 +264,6 @@ const combinedData = [
         "Lien": "https://fondation-ronald-mcdonald.fr/"
     },
     {
-        "Nom": "The SeaCleaners",
-        "Adherents": "Pilot Pen France",
-        "Cible": "Protection de l'environnement",
-        "Perimetre": "National",
-        "Actions": "Actions de dépollution des océans, production d'études sur la pollution, actions de sensibilisation grand public",
-        "Lien": "https://www.theseacleaners.org/fr/accueil/"
-    },
-    {
         "Nom": "Semaine de l'écriture",
         "Adherents": "Pilot Pen France",
         "Cible": "Enfants, adolescents et adultes",
@@ -302,14 +294,6 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Proposent des colocations pour aider des personnes sans abris et des jeunes actifs",
         "Lien": "https://www.lazare.eu/"
-    },
-    {
-        "Nom": "Récolte&Nous",
-        "Adherents": "McCain",
-        "Cible": "Acteurs locaux de l'économie circulaire et agriculteurs",
-        "Perimetre": "Nord (59)",
-        "Actions": "Développement d'un réseau de professionnels et d'agriculteurs dans le but de développer l'économie circulaire",
-        "Lien": "https://recoltesetnous.fr/"
     },
     {
         "Nom": "Les petites soeurs des pauvres",
@@ -424,14 +408,6 @@ const combinedData = [
         "Lien": "https://www.vecv.org/"
     },
     {
-        "Nom": "Expédition MED",
-        "Adherents": "Ferrero France",
-        "Cible": "",
-        "Perimetre": "",
-        "Actions": "Amélioration des connaissances sur les déchets marins",
-        "Lien": "https://www.expedition-med.org/"
-    },
-    {
         "Nom": "FACE",
         "Adherents": "Ferrero France",
         "Cible": "Acteurs publics, privés et associatifs",
@@ -462,14 +438,6 @@ const combinedData = [
         "Perimetre": "National",
         "Actions": "Permettre aux elèves scolarisés dans les collèges de l'éducation prioritaire de se projeter dans leur avenir",
         "Lien": "https://alliance-education-uw.org/"
-    },
-    {
-        "Nom": "Miimosa",
-        "Adherents": "PepsiCo, Nestlé France",
-        "Cible": "",
-        "Perimetre": "National",
-        "Actions": "Financement participatif de projets dédiés à la transition agricole et alimentaire",
-        "Lien": "https://miimosa.com/"
     },
     {
         "Nom": "Sourire d'enfant",
@@ -540,7 +508,7 @@ const combinedData = [
         "Adherents": "Purina",
         "Cible": "Personnes en situation de handicap",
         "Perimetre": "National",
-        "Actions": "Éducation et remise gratuitement de chiens d'assistancee pour personnes en situation de handicap",
+        "Actions": "Éducation et remise gratuitement de chiens d'assistance pour personnes en situation de handicap",
         "Lien": "https://handichiens.org/"
     },
     {
