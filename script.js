@@ -505,7 +505,7 @@ const combinedData = [
     },
     {
         "Nom": "HANDI'CHIENS",
-        "Adherents": "Purina",
+        "Adherents": "Purina, Mars Petcare France",
         "Cible": "Personnes en situation de handicap",
         "Perimetre": "National",
         "Actions": "Éducation et remise gratuitement de chiens d'assistance pour personnes en situation de handicap",
@@ -513,7 +513,7 @@ const combinedData = [
     },
     {
         "Nom": "Gamelles pleines",
-        "Adherents": "Purina, Mars INC",
+        "Adherents": "Purina, Mars Petcare France",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "National",
         "Actions": "Aider les personnes en situation de souffrance sociale et économique pour qu'elles puissent garder leurs animaux de compagnie",
