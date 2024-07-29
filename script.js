@@ -19,7 +19,7 @@ const combinedData = [
         "Nom": "Banques alimentaires",
         "Adherents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, PepsiCo, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France, Ferrero France, Tereos, Labeyrie Fine Foods, Eckes-Granini France, Aoste, Nestlé France",
         "Cible": "Personnes en situation de précarité, familles",
-        "Perimetre": "National (France), réseau européen",
+        "Perimetre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
         "Lien": "https://www.banquealimentaire.org"
     },
@@ -228,7 +228,7 @@ const combinedData = [
         "Adherents": "L'Oréal, Carambar&Co, PepsiCo, Aoste",
         "Cible": "Soutien aux personnes sans-abri et en grande précarité",
         "Perimetre": "National",
-        "Actions": "Hébergement et réinsertion sociale des personnes sans-abri",
+        "Actions": "Accueil, accompagnement social et hébergement pour les personnes à la rue, en précarité ou victime d'exclusion",
         "Lien": "https://www.emmaus-solidarite.org/"
     },
     {
@@ -244,7 +244,7 @@ const combinedData = [
         "Adherents": "Danone",
         "Cible": "Soutien aux femmes enceintes en difficulté et aux jeunes mères",
         "Perimetre": "Régional",
-        "Actions": "Sos bébé est un service d’écoute national qui accueille et soutien les femmes enceintes en difficulté, les accompagne dans leur recherche d’aides matérielles et les oriente pour leur suivi médical",
+        "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
         "Lien": "https://www.sosbebe.org/"
     },
     {

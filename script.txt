@@ -228,7 +228,7 @@ const combinedData = [
         "Adherents": "L'Oréal, Carambar&Co, PepsiCo, Aoste",
         "Cible": "Soutien aux personnes sans-abri et en grande précarité",
         "Perimetre": "National",
-        "Actions": "Hébergement et réinsertion sociale des personnes sans-abri",
+        "Actions": "Accueil, accompagnement social et hébergement pour les personnes à la rue, en précarité ou victime d'exclusion",
         "Lien": "https://www.emmaus-solidarite.org/"
     },
     {
