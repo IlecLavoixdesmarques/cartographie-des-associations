@@ -217,7 +217,7 @@ const combinedData = [
     },
     {
         "Nom": "Humanity Diaspo",
-        "Adherents": "Innocent Drinks",
+        "Adherents": "L'Oréal",
         "Cible": "Aide aux sans-abri et aux personnes en situation d’exclusion",
         "Perimetre": "Local (Grandes villes)",
         "Actions": "Distribution de repas aux sans-abri et aide administrative et orientation",
