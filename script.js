@@ -49,7 +49,7 @@ const combinedData = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Adherents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France, Henkel France",
+        "Adherents": "Playmobil, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France, Henkel France, Unilever, Kimberly Clark, Beiersdorf, Expanscience, Mattel, Reckitt",
         "Cible": "Personnes en situation de précarité",
         "Perimetre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
