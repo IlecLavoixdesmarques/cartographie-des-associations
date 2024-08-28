@@ -240,12 +240,12 @@ const combinedData = [
         "Lien": "https://www.lamaisondesfemmes.fr/"
     },
     {
-        "Nom": "SOS Bébé",
+        "Nom": "SOS Préma",
         "Adherents": "Danone",
-        "Cible": "Soutien aux femmes enceintes en difficulté et aux jeunes mères",
-        "Perimetre": "Régional",
-        "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
-        "Lien": "https://www.sosbebe.org/"
+        "Cible": "Familles confrontées à la prématurité",
+        "Perimetre": "National",
+        "Actions": "Accompagnement de familles confrontées à la prématurité où à l'hospitalisation de leur nouveau né",
+        "Lien": "https://www.sosprema.com/"
     },
     {
         "Nom": "Magie à l'hôpital",
