@@ -550,6 +550,14 @@ const combinedData = [
         "Perimetre": "International",
         "Actions": "Soutien à des associations dans leurs projets de préservation et de protection de la biodiversité",
         "Lien": "https://associationyoucare.org/"
+    },
+    {
+        "Nom": "CASP",
+        "Adherents": "L'Oréal",
+        "Cible": "Personnes en situation de vulnérabilité et d'exclusion",
+        "Perimetre": "France",
+        "Actions": "Accompagnement de personnes en situation de vulnérabilité dans leur insertion",
+        "Lien": "https://casp.asso.fr/"
     }
 ];
 
